@@ -33,13 +33,18 @@
     .sorteo {
         max-width: 100%; /* Hacer que la imagen del sorteo ocupe el ancho completo en pantallas pequeñas */
     }
+    .bi-whatsapp {
+        font-size: 180px; /* Reducir el tamaño del ícono de WhatsApp en pantallas más pequeñas */
+    }
 }
 
 @media screen and (max-width: 480px) {
     .button {
         font-size: 0.8em; /* Reducir el tamaño del texto del botón en pantallas más pequeñas */
     }
-
+    .whatsapp-button{
+        display: block; 
+    }
     .bi-whatsapp {
         font-size: 80px; /* Reducir el tamaño del ícono de WhatsApp en pantallas más pequeñas */
     }
